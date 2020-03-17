@@ -70,9 +70,9 @@ def post_image(img_path):
     clean_payload = new_payload.decode('ascii')
 
     headers = {
-        'Authorization': "Basic YXBpdGVzdDpBUEl0ZXN0MTIz",
+        'Authorization': "",
         'Content-Type': "application/xml",
-        'Host': "demo.webportglobal.com"}
+        'Host': ""}
     response = requests.post(url, headers=headers, data=clean_payload)
     #print(clean_payload)
     guid = response.text
