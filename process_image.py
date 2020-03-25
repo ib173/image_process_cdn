@@ -26,7 +26,7 @@ def clean_img_link(url):
             return url
         except:
             pass
-    return "https://static.wixstatic.com/media/b77fe464cfc445da9003a5383a3e1acf.jpg"
+    return # default image url as string
 
 def concat_guid(guid_val):
     i = guid_val.index('<AttachmentGuid>')
