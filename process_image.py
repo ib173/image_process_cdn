@@ -46,7 +46,7 @@ def download_image(url):
 
 
 def post_image(img_path):
-    url = "https://demo.webportglobal.com/rest/cms.attachment/currentsite" #REST Endpoint
+    url = #REST Endpoint
     # img_path = "C:/Users/iannb/Desktop/news_image.jpg"
     with open(img_path, "rb") as image_file:
         image_base64 = base64.b64encode(image_file.read())
